@@ -1,5 +1,6 @@
 # Solve Wordle
-Shows the words that could be the answer to the game.
+Shows the words that could be the answer to the game.\
+Created using python and pandas library.
 
 ## Example:
 ```text
