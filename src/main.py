@@ -1,7 +1,8 @@
 import pandas as pd
+import os
 
 
-words = pd.read_csv('src/assets/words.csv')
+words = pd.read_csv(os.path.dirname(__file__).replace('\\', '/') + '/assets/words.csv')
 words = words.squeeze()
 words = words[words.str.len() == 5]
 words = words.str.lower()
